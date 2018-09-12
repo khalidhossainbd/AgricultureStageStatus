@@ -8,6 +8,7 @@ namespace AgricultureStageStatus.Models.ViewModels
 {
     public class CropStageViewModel
     {
+        
         public string Region { get; set; }
         public string District { get; set; }
         public string Season { get; set; }
@@ -20,6 +21,11 @@ namespace AgricultureStageStatus.Models.ViewModels
         public short? stg_hdf { get; set; }
         public short? stg_rpn { get; set; }
         public short? stg_hrv { get; set; }
+        [StringLength(50)]
+        public string FiscalCode { get; set; }
+        public DateTime? DateCreated { get; set; }
+        public DateTime? MeasureDate { get; set; }
+        
 
     }
     
