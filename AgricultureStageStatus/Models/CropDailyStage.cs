@@ -13,7 +13,7 @@ namespace AgricultureStageStatus
         public int ID { get; set; }
         public int DistrictID { get; set; }
         public int FiscalYearID { get; set; }
-        public int SeasonID { get; set; }
+        public int? SeasonID { get; set; }
         public int? CropID { get; set; }
         public int? CropVarityID { get; set; }
         public DateTime? MeasureDate { get; set; }

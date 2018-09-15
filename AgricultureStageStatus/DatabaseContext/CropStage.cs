@@ -16,6 +16,7 @@ namespace AgricultureStageStatus
         public virtual DbSet<FiscalYear> FiscalYears { get; set; }
         public virtual DbSet<District> Districts { get; set; }
         public virtual DbSet<Area> Region { get; set; }
+        public virtual DbSet<Season> Seasons { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }

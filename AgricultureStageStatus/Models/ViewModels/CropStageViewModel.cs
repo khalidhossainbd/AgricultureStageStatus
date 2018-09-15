@@ -8,7 +8,7 @@ namespace AgricultureStageStatus.Models.ViewModels
 {
     public class CropStageViewModel
     {
-        
+        public int Id { get; set; }
         public string Region { get; set; }
         public string District { get; set; }
         public string Season { get; set; }
